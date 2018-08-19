@@ -30,21 +30,45 @@ export default class ListItem extends React.Component {
             flex: 1,
             flexDirection: "row",
             padding: 16,
-            backgroundColor: this.state.isClicked ? "#eee" : "#f5f5f5",
-            margin: 8
+            backgroundColor: "#ffffff",
+            margin: 4
           }}
         >
           <Image
-            style={{ width: 64, height: 64, marginRight: 16 }}
-            source={this.props.image}
+            style={{ width: 90, height: 90, marginRight: 16 }}
+            source={{ uri: this.props.image }}
           />
-          <Text
-            style={{
-              fontSize: 17
-            }}
-          >
-            {this.props.name}
-          </Text>
+          <View>
+            <Text
+              style={{
+                fontSize: 18
+              }}
+            >
+              {this.props.name}
+            </Text>
+            <Text
+              style={{
+                fontSize: 14
+              }}
+            >
+              {this.props.cuisine}
+            </Text>
+            <Text
+              style={{
+                fontSize: 14
+              }}
+            >
+              {this.props.label}
+            </Text>
+            <Text
+              style={{
+                fontSize: 21,
+                fontWeight: "bold"
+              }}
+            >
+              {this.props.price}
+            </Text>
+          </View>
         </View>
       </TouchableOpacity>
     );
