@@ -9,7 +9,7 @@ const RootStack = createStackNavigator({
     screen: RestaurantsScreen,
     navigationOptions: {
       title: "Restaurants",
-      headerRight: <Button title="Cart">Cart(0)</Button>
+      headerRight: <Button title="Cart">Cart</Button>
     }
   },
   Dishes: {
