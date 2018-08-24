@@ -7,6 +7,7 @@ import {
   Image,
   TouchableOpacity
 } from "react-native";
+import CustomText from "../components/common/CustomText";
 import Constants from "../utils/constants";
 
 export default class ListItem extends React.Component {
@@ -26,26 +27,39 @@ export default class ListItem extends React.Component {
     return (
       <TouchableOpacity onPress={this.handleClick}>
         <View
+          elevation={2}
           style={{
             flex: 1,
             flexDirection: "row",
-            padding: 16,
             backgroundColor: "#ffffff",
-            margin: 4
+            marginHorizontal: 16,
+            marginVertical: 8,
+            borderRadius: 6
           }}
         >
           <Image
-            style={{ width: 90, height: 90, marginRight: 16 }}
+            style={{
+              width: 108,
+              height: 108,
+              borderTopLeftRadius: 6,
+              borderTopRightRadius: 0,
+              borderBottomRightRadius: 0,
+              borderBottomLeftRadius: 6
+            }}
             source={{ uri: this.props.image }}
           />
-          <View>
-            <Text
+          <View
+            style={{
+              padding: 16
+            }}
+          >
+            <CustomText
               style={{
                 fontSize: 18
               }}
             >
               {this.props.name}
-            </Text>
+            </CustomText>
             <Text
               style={{
                 fontSize: 14

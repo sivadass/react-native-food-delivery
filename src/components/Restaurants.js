@@ -59,8 +59,9 @@ export default class Restaurants extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#f5f5f5",
-    width: "100%"
+    backgroundColor: "#f7f7f7",
+    width: "100%",
+    marginTop: 8
   },
 
   title: {
