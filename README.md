@@ -4,6 +4,12 @@ A simple food ordering appbuilt using React Native
 
 <!-- GIF screen shot here -->
 
+### Live Demo
+
+Just install this APK on your android and paly with it:
+
+<!-- APK download link here -->
+
 ### Installation
 
 ```
