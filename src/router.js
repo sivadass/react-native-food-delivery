@@ -3,6 +3,7 @@ import { Button, TouchableOpacity, Text, Image } from "react-native";
 import { createStackNavigator } from "react-navigation";
 import RestaurantsScreen from "./components/Restaurants";
 import DishesScreen from "./components/Dishes";
+import CartScreen from "./components/Cart";
 
 const RootStack = createStackNavigator({
   Restaurants: {
@@ -16,14 +17,13 @@ const RootStack = createStackNavigator({
       headerRight: (
         <TouchableOpacity
           //style={styles.button}
-          onPress={() => alert("This is a button!")}
+          onPress={() => {
+            navigate("Cart");
+          }}
         >
           <Image
-            style={{ width: 50, height: 50 }}
-            source={{
-              uri:
-                "https://res.cloudinary.com/sivadass/image/upload/v1514632574/icons/findowtt.svg"
-            }}
+            style={{ width: 32, height: 32, marginRight: 16 }}
+            source={require(".././assets/shopping-bag.png")}
           />
         </TouchableOpacity>
       )
@@ -33,6 +33,12 @@ const RootStack = createStackNavigator({
     screen: DishesScreen,
     navigationOptions: {
       title: "Dishes"
+    }
+  },
+  Cart: {
+    screen: CartScreen,
+    navigationOptions: {
+      title: "Cart"
     }
   }
 });

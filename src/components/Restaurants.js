@@ -48,6 +48,7 @@ export default class Restaurants extends React.Component {
               cuisine={item.cuisine}
               price={item.price}
               label={item.label}
+              isVegetarian={item.isVegetarian}
               handleNaviagation={this.handleNaviagation}
             />
           )}
@@ -59,9 +60,9 @@ export default class Restaurants extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#f7f7f7",
-    width: "100%",
-    marginTop: 8
+    width: "100%"
+    //marginTop: 16,
+    //marginBottom: 16
   },
 
   title: {

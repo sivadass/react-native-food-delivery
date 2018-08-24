@@ -10,7 +10,7 @@ import {
 import Constants from "../utils/constants";
 import ListItem from "./ListItem";
 
-export default class Dishes extends React.Component {
+export default class Cart extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -20,7 +20,7 @@ export default class Dishes extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Some text</Text>
+        <Text>This is Cart page</Text>
       </View>
     );
   }
