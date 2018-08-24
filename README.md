@@ -1,8 +1,7 @@
 # React Native Food Delivery App
 
 A simple food ordering appbuilt using React Native
-
-<!-- GIF screen shot here -->
+![React Native Food Delivery App](https://res.cloudinary.com/sivadass/image/upload/v1535140262/react-native-food-delivery-app.jpg)
 
 ### Live Demo
 

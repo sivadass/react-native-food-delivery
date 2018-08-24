@@ -9,7 +9,7 @@ const RootStack = createStackNavigator({
   Restaurants: {
     screen: RestaurantsScreen,
     navigationOptions: {
-      title: "Restaurants",
+      title: "Menu",
       headerStyle: {
         elevation: 0,
         shadowOpacity: 0
