@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Adyar Ananda Bhavan",
+    "isVegetarian": true,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/adayar-anandha-bhavan.jpg",
+    "rating": 4
+  },
+  {
+    "id": "2",
+    "name": "Anjappar",
+    "isVegetarian": false,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/anjappar.jpg",
+    "rating": 3
+  },
+  {
+    "id": "3",
+    "name": "Buhari Hotel",
+    "isVegetarian": false,
+    "cuisine": "North Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181119/dummy-products/restaurants/buhari.jpg",
+    "rating": 4
+  },
+  {
+    "id": "4",
+    "name": "Sree Gupta Bhavan",
+    "isVegetarian": true,
+    "cuisine": "North Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/gupta-bhavan.jpg",
+    "rating": 5
+  },
+  {
+    "id": "5",
+    "name": "Hot Chips",
+    "isVegetarian": true,
+    "cuisine": "South Indian",
+    "image": "http://res.cloudinary.com/sivadass/image/upload/v1535181126/dummy-products/restaurants/hot-chips.jpg",
+    "rating": 5
+  },
+  {
+    "id": "6",
+    "name": "Paradise Briyani",
+    "isVegetarian": false,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/paradise.jpg",
+    "rating": 4
+  },
+  {
+    "id": "7",
+    "name": "Saravana Bhavan",
+    "isVegetarian": true,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/saravana-bhavan.jpg",
+    "rating": 5
+  },
+  {
+    "id": "8",
+    "name": "Dindigul Thalappakatti",
+    "isVegetarian": false,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181123/dummy-products/restaurants/thalapakatti.jpg",
+    "rating": 3
+  },
+  {
+    "id": "9",
+    "name": "Thambi Vilas",
+    "isVegetarian": false,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181123/dummy-products/restaurants/thambi-vilas.jpg",
+    "rating": 5
+  },
+  {
+    "id": "10",
+    "name": "Vasantha Bhavan",
+    "isVegetarian": true,
+    "cuisine": "South Indian",
+    "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181123/dummy-products/restaurants/vasantha-bhavan.jpg",
+    "rating": 4
+  }
+]
