@@ -7,15 +7,30 @@ import {
   Image,
   TouchableOpacity
 } from "react-native";
-import Constants from "../utils/constants";
 import restaurantsData from "../api/restaurants.json";
-import ListItem from "./ListItem";
 import RestaurantItem from "./RestaurantItem";
+import CartButton from "./common/CartButton";
 
 export default class Restaurants extends React.Component {
   constructor(props) {
     super(props);
   }
+  static navigationOptions = ({ navigation }) => {
+    return {
+      headerTitle: "Restaurants",
+      headerStyle: {
+        elevation: 0,
+        shadowOpacity: 0
+      },
+      headerRight: (
+        <CartButton
+          onPress={() => {
+            navigation.navigate("Cart");
+          }}
+        />
+      )
+    };
+  };
   handleNaviagation = () => {
     this.props.navigation.navigate("Dishes");
   };
@@ -43,18 +58,8 @@ export default class Restaurants extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    width: "100%"
-    //marginTop: 16,
-    //marginBottom: 16
-  },
-
-  title: {
-    fontSize: 24,
-    color: "#4099ff",
-    margin: 8
-  },
-
-  listItem: {
-    flex: 1
+    width: "100%",
+    marginTop: 8,
+    marginBottom: 8
   }
 });

@@ -20,7 +20,22 @@ export default class Cart extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>This is Cart page</Text>
+        <View>
+          <Image
+            source={require("../../assets/empty-bag.png")}
+            style={{ width: 150, height: 150, marginBottom: 12 }}
+          />
+          <Text
+            style={{
+              textAlign: "center",
+              color: "#ef6136",
+              fontSize: 18,
+              opacity: 0.55
+            }}
+          >
+            Cart is empty!
+          </Text>
+        </View>
       </View>
     );
   }
@@ -28,18 +43,17 @@ export default class Cart extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 24,
-    backgroundColor: "#f5f5f5",
-    width: "100%"
+    backgroundColor: "#fff",
+    width: "100%",
+    height: "100%",
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center"
   },
 
   title: {
     fontSize: 24,
     color: "#4099ff",
     margin: 8
-  },
-
-  listItem: {
-    flex: 1
   }
 });

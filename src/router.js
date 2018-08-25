@@ -9,24 +9,7 @@ const RootStack = createStackNavigator({
   Restaurants: {
     screen: RestaurantsScreen,
     navigationOptions: {
-      title: "Menu",
-      headerStyle: {
-        elevation: 0,
-        shadowOpacity: 0
-      },
-      headerRight: (
-        <TouchableOpacity
-          //style={styles.button}
-          onPress={() => {
-            navigate("Cart");
-          }}
-        >
-          <Image
-            style={{ width: 32, height: 32, marginRight: 16 }}
-            source={require(".././assets/shopping-bag.png")}
-          />
-        </TouchableOpacity>
-      )
+      title: "Food Shop"
     }
   },
   Dishes: {
@@ -38,7 +21,11 @@ const RootStack = createStackNavigator({
   Cart: {
     screen: CartScreen,
     navigationOptions: {
-      title: "Cart"
+      title: "Cart",
+      headerStyle: {
+        elevation: 0,
+        shadowOpacity: 0
+      }
     }
   }
 });

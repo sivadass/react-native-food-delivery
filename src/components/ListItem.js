@@ -104,7 +104,8 @@ export default class ListItem extends React.Component {
               <Text
                 style={{
                   fontSize: 21,
-                  fontWeight: "bold"
+                  fontWeight: "bold",
+                  color: "#ef6136"
                 }}
               >
                 {this.props.price}
