@@ -6,6 +6,7 @@ A simple food ordering appbuilt using React Native
 ### Live Demo
 
 Just install this APK on your android and paly with it:
+[Download Link here](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40sivadass/foodShop-5eeadd13529fd0ddc7d5d8c2333aac03-signed.apk)
 
 <!-- APK download link here -->
 
