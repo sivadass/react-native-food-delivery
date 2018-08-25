@@ -8,8 +8,9 @@ import {
   TouchableOpacity
 } from "react-native";
 import Constants from "../utils/constants";
-import foodData from "../food-data.json";
+import restaurantsData from "../api/restaurants.json";
 import ListItem from "./ListItem";
+import RestaurantItem from "./RestaurantItem";
 
 export default class Restaurants extends React.Component {
   constructor(props) {
@@ -19,35 +20,17 @@ export default class Restaurants extends React.Component {
     this.props.navigation.navigate("Dishes");
   };
   render() {
-    let restaurants = [
-      {
-        id: 1,
-        name: "Master Dosa",
-        key: "dosa"
-      },
-      {
-        id: 2,
-        name: "Master Dosa",
-        key: "pizza"
-      },
-      {
-        id: 3,
-        name: "Master Dosa",
-        key: "vegBriyani"
-      }
-    ];
     return (
       <View style={styles.container}>
         <FlatList
-          data={foodData}
+          data={restaurantsData}
           keyExtractor={item => item.id}
           renderItem={({ item }) => (
-            <ListItem
+            <RestaurantItem
               name={item.name}
               image={item.image}
               cuisine={item.cuisine}
-              price={item.price}
-              label={item.label}
+              location={item.location}
               isVegetarian={item.isVegetarian}
               handleNaviagation={this.handleNaviagation}
             />

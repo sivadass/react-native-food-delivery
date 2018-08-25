@@ -5,7 +5,8 @@
     "isVegetarian": true,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/adayar-anandha-bhavan.jpg",
-    "rating": 4
+    "rating": 4,
+    "location": "Velacherry"
   },
   {
     "id": "2",
@@ -13,7 +14,8 @@
     "isVegetarian": false,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/anjappar.jpg",
-    "rating": 3
+    "rating": 3,
+    "location": "Okkiyampet"
   },
   {
     "id": "3",
@@ -21,7 +23,8 @@
     "isVegetarian": false,
     "cuisine": "North Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181119/dummy-products/restaurants/buhari.jpg",
-    "rating": 4
+    "rating": 4,
+    "location": "Karapakkam"
   },
   {
     "id": "4",
@@ -29,7 +32,8 @@
     "isVegetarian": true,
     "cuisine": "North Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/gupta-bhavan.jpg",
-    "rating": 5
+    "rating": 5,
+    "location": "SRP Tools"
   },
   {
     "id": "5",
@@ -37,7 +41,8 @@
     "isVegetarian": true,
     "cuisine": "South Indian",
     "image": "http://res.cloudinary.com/sivadass/image/upload/v1535181126/dummy-products/restaurants/hot-chips.jpg",
-    "rating": 5
+    "rating": 5,
+    "location": "Thiruvanmiyur"
   },
   {
     "id": "6",
@@ -45,7 +50,8 @@
     "isVegetarian": false,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/paradise.jpg",
-    "rating": 4
+    "rating": 4,
+    "location": "SRP Tools"
   },
   {
     "id": "7",
@@ -53,7 +59,8 @@
     "isVegetarian": true,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181121/dummy-products/restaurants/saravana-bhavan.jpg",
-    "rating": 5
+    "rating": 5,
+    "location": "Kandan Chavadi"
   },
   {
     "id": "8",
@@ -61,7 +68,8 @@
     "isVegetarian": false,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181123/dummy-products/restaurants/thalapakatti.jpg",
-    "rating": 3
+    "rating": 3,
+    "location": "Karapakkam"
   },
   {
     "id": "9",
@@ -69,7 +77,8 @@
     "isVegetarian": false,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181123/dummy-products/restaurants/thambi-vilas.jpg",
-    "rating": 5
+    "rating": 5,
+    "location": "Okkiyampet"
   },
   {
     "id": "10",
@@ -77,6 +86,7 @@
     "isVegetarian": true,
     "cuisine": "South Indian",
     "image": "https://res.cloudinary.com/sivadass/image/upload/v1535181123/dummy-products/restaurants/vasantha-bhavan.jpg",
-    "rating": 4
+    "rating": 4,
+    "location": "Adyar"
   }
 ]
