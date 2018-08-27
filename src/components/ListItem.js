@@ -3,13 +3,10 @@ import {
   StyleSheet,
   Text,
   View,
-  FlatList,
   Image,
   Button,
   TouchableOpacity
 } from "react-native";
-import CustomText from "../components/common/CustomText";
-import Constants from "../utils/constants";
 
 export default class ListItem extends React.Component {
   constructor(props) {
@@ -129,5 +126,3 @@ export default class ListItem extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({});
