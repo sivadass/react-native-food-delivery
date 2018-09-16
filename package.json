@@ -1,5 +1,5 @@
 {
-  "name": "empty-project-template",
+  "name": "food-shop",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
     "expo": "^29.0.0",
     "react": "16.3.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
-    "react-native-vector-icons": "^5.0.0",
     "react-navigation": "^2.11.2"
   }
 }
