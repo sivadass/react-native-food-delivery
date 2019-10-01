@@ -1,9 +1,8 @@
-import React from "react";
-import { Button, TouchableOpacity, Text, Image } from "react-native";
-import { createStackNavigator } from "react-navigation";
-import RestaurantsScreen from "./components/Restaurants";
-import DishesScreen from "./components/Dishes";
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from "react-navigation-stack";
 import CartScreen from "./components/Cart";
+import DishesScreen from "./components/Dishes";
+import RestaurantsScreen from "./components/Restaurants";
 
 const RootStack = createStackNavigator({
   Restaurants: {
@@ -30,4 +29,4 @@ const RootStack = createStackNavigator({
   }
 });
 
-export default RootStack;
+export default createAppContainer(RootStack);
