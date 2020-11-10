@@ -24,9 +24,9 @@ export default class Restaurants extends React.Component {
       },
       headerRight: (
         <CartButton
-          onPress={() => {
-            navigation.navigate("Cart");
-          }}
+          // onPress={() => {
+          //   navigation.navigate("Cart");
+          // }}
         />
       )
     };

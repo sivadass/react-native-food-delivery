@@ -107,7 +107,7 @@ export default class ListItem extends React.Component {
               >
                 {this.props.price}
               </Text>
-              {/* <Button
+              {<Button
                 onPress={e => alert("Hey")}
                 title="ADD"
                 style={{
@@ -118,7 +118,7 @@ export default class ListItem extends React.Component {
                   paddingTop: 8,
                   paddingBottom: 8
                 }}
-              /> */}
+              />}
             </View>
           </View>
         </View>
